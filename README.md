@@ -1,1 +1,1 @@
-# react-workshop
+# React workshop 🎨
