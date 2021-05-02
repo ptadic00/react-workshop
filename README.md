@@ -15,5 +15,5 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 ## Branchevi
 part-1-branch
 ```
-git checkout "part-1..."
+$ git checkout "part-1..."
 ```
