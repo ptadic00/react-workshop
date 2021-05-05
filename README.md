@@ -16,4 +16,16 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 part-1-branch
 ```
 $ git checkout "part-1..."
+
+```
+
+## Skripte
+Pokretanje aplikacije
+```
+$ yarn start
+```
+
+Build aplikacije
+```
+$ yarn build
 ```
