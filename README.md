@@ -13,10 +13,10 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 - [Netlify](https://www.netlify.com/)
 
 ## Branchevi
-part-1-branch
+### Prvi dio
+Postavljena dev konfiguracija s eslintom, prettierom i huskyem. 
 ```
-$ git checkout "part-1..."
-
+$ git checkout "part-1-dev-config"
 ```
 
 ## Skripte
