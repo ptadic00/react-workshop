@@ -10,6 +10,7 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 
 ### Opcionalno
 - [Thunder Client](https://www.thunderclient.io/)
+- [Blisk](https://blisk.io/)
 - [Netlify](https://www.netlify.com/)
 
 ## Specifikacije
@@ -21,6 +22,12 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 Postavljena dev konfiguracija s eslintom, prettierom i huskyem. 
 ```
 $ git checkout "part-1-dev-config"
+```
+
+### Drugi dio
+Implementirana je pretraga restorana i prikaz u gridu.
+```
+$ git checkout "part-2-restaurant-search-page"
 ```
 
 ## Skripte
