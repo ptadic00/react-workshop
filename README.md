@@ -12,11 +12,15 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 - [Thunder Client](https://www.thunderclient.io/)
 - [Netlify](https://www.netlify.com/)
 
-## Branchevi
-part-1-branch
-```
-$ git checkout "part-1..."
+## Specifikacije
+- [Aplikacija](./APP_SPECS.md)
+- [Dobartek API](./API_SPECS.md)
 
+## Branchevi
+### Prvi dio
+Postavljena dev konfiguracija s eslintom, prettierom i huskyem. 
+```
+$ git checkout "part-1-dev-config"
 ```
 
 ## Skripte
