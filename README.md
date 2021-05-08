@@ -30,6 +30,18 @@ Implementirana je pretraga restorana i prikaz u gridu.
 $ git checkout "part-2-restaurant-search-page"
 ```
 
+### Treći dio
+Implementirano je dodavanje restorana u favorite
+```
+$ git checkout "part-3-restaurant-favorite"
+```
+
+### Četvrti dio
+Implementirana je nova stranica izlista svih restorana
+```
+$ git checkout "part-4-restaurant-list-page"
+```
+
 ## Skripte
 Pokretanje aplikacije
 ```
