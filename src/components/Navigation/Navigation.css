@@ -1,0 +1,21 @@
+.navigation-container {
+  width: 100%;
+  background: rgb(201, 84, 84);
+  padding: 10px;
+}
+
+.navigation-list {
+  margin: 0 auto;
+  list-style: none;
+  max-width: 1024px;
+}
+
+.navigation-list-item {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navigation-list-item a {
+  color: white;
+  text-decoration: none;
+}
