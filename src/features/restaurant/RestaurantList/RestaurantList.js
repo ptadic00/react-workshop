@@ -1,7 +1,7 @@
 import './RestaurantList.css';
 import RestaurantListItem from '../RestaurantListItem/RestaurantListItem';
 
-const RestaurantList = ({ restaurants }) => {
+const RestaurantList = ({ restaurants, isFavorite, toggleFavorite }) => {
   return (
     <div className="restaurant-list-container">
       {restaurants.map((restaurant) => (
@@ -9,6 +9,8 @@ const RestaurantList = ({ restaurants }) => {
           key={restaurant.urlFriendlyName}
           restaurant={restaurant}
           className="restaurant-list-item"
+          isFavorite={isFavorite}
+          toggleFavorite={toggleFavorite}
         />
       ))}
     </div>
