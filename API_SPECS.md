@@ -24,7 +24,7 @@ Response je niz objekata.
         rating: string,
         title: string,
         urlFriendlyName: string,
-        profilePicture: {
+        headerSquarePicture: {
             url3x: string
         },
         isOnline: bool,
@@ -33,11 +33,27 @@ Response je niz objekata.
 ]
 ```
 
+Primjer iz responsea
+```
+[
+    {
+        rating: 4.9,
+        title: 'Fast Food Ketchup',
+        urlFriendlyName: 'ketchup',
+        headerSquarePicture: {
+            url3x: 'https://www.dobartek.hr/restaurant-picture/1/HeaderSquare/ThreeX?v=20210421',
+        },
+        isOnline: true,
+        cityName: 'Split',
+    }
+]
+```
+
 ### Primjer
 Pretraži restorane na lokaciji `43.508133, 16.440193` koji u imenu imaju riječ `fast`.
 
 https://api.dobartek.hr/v1/restaurants/search?latitude=43.508133&longitude=16.440193&isFoodPickup=false&query=fast
-
+  
 
 ## GET `/restaurants`
 Endpoint vraća listu restorana ovisno o lokaciji.
@@ -66,6 +82,22 @@ Response je niz objekata.
             url3x: string
         },
         isOnline: bool
+    }
+]
+```
+
+Primjer iz responsea
+```
+[
+    {
+        rating: 4.9,
+        title: 'Fast Food Ketchup',
+        urlFriendlyName: 'ketchup',
+        headerSquarePicture: {
+            url3x: 'https://www.dobartek.hr/restaurant-picture/1/HeaderSquare/ThreeX?v=20210421',
+        },
+        isOnline: true,
+        cityName: 'Split',
     }
 ]
 ```
