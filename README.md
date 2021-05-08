@@ -24,6 +24,12 @@ Postavljena dev konfiguracija s eslintom, prettierom i huskyem.
 $ git checkout "part-1-dev-config"
 ```
 
+### Drugi dio
+Implementirana je pretraga restorana i prikaz u gridu.
+```
+$ git checkout "part-2-restaurant-search-page"
+```
+
 ## Skripte
 Pokretanje aplikacije
 ```
