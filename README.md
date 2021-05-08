@@ -10,6 +10,7 @@ Fokusirat ćemo se na kvalitetu koda i pričati o arhitekturi React aplikacija. 
 
 ### Opcionalno
 - [Thunder Client](https://www.thunderclient.io/)
+- [Blisk](https://blisk.io/)
 - [Netlify](https://www.netlify.com/)
 
 ## Specifikacije
