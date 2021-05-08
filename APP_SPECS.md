@@ -1,8 +1,6 @@
 # React workshop specifikacija
  
 
-Trebali biste koristiti dobartek.hr API za pretragu restorana ().
-
 ## Funkcionalni zahtjevi
 Cilj je napraviti aplikaciju koja će korisnicima omogućiti pretraživanje i označavanje njihovih omiljenih dobartek.hr restorana.
 
